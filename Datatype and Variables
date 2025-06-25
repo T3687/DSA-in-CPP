@@ -1,1 +1,14 @@
-
+#include<iostream>
+using namespace std;
+int main (){
+    int a = 123;
+    cout<< a << endl;
+    char b = 'type';
+    cout<< b <<endl;
+    bool c = true;
+    cout<< c <<endl;
+    double d = 1.23;
+    cout<< d <<endl;
+    int size = sizeof(c);
+    cout<< "size of c is :"<<size<<endl;
+}
